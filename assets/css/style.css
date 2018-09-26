@@ -5,6 +5,11 @@
 	font-family: 'Noto Serif KR', sans-serif;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
 	background:url(../img/landingBg.jpg) no-repeat center center fixed;
 	background-size:  cover;
