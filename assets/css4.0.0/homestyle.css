@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif KR', sans-serif;
+}
+
+body{
+	background:url(../img/landingBg.jpg) no-repeat center center fixed;
+	background-size:  cover;
+}
+
+.jumbotron{
+	/*background-color: #141414; offblack*/
+	background-image: url('../img/network.jpg');
+	background-size: cover;
+	background-position: center;
+	/*height: 50vh;*/
+	border-radius: 0;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#about-landing{
+	color: #f2f2f2; /*offwhite*/
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+}
+
+#mission{
+	height: 100%;
+	background-color: #141414;
+	color: #f2f2f2;
+}
+
+#vision{
+	height: 100%;
+	background-color: #f2f2f2;
+	color: #141414;
+}
+
+.about-tags{
+	font-weight: bold;
+}
+
+a:hover{
+	color: black !important;
+}
+
+a{
+	color: #f2f2f2 !important;
+}

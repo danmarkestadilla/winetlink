@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif KR', sans-serif;
+}
+
+body{
+	background:url(../img/landingBg.jpg) no-repeat center center fixed;
+	background-size:  cover;
+}
+
+#brandLogo{
+  height: 30px;
+  width: 30px;
+}
+
+footer > p{
+	color: #f2f2f2;
+}
+
+.bg-dark{
+  background-color: #141414 !important;
+}
+
+.nav-link{
+  color: #f2f2f2 !important;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+
+.jumbotron{
+  background-color: rgba(20,20,20, 0.7);
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 80%;
+}
+
+div h1,p,a{
+  color: #f2f2f2;
+}
+
+.btn-dark{
+  background-color: #141414;
+}
+
+.btn:hover{
+  color: blue;
+}
+
+.footer p {
+  font-size: 14px;
+}

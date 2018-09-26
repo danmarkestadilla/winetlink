@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif KR', sans-serif;
+}
+
+footer > p{
+	color: #f2f2f2;
+}
+
+.bg-dark{
+  background-color: #141414 !important;
+}
+
+.nav-link:hover {
+  color: green !important;
+}
+.nav-link{
+  color: #f2f2f2 !important;
+}
+.carousel {
+  width:640px;
+  height:360px;
+  margin: 0 auto;
+}
+/*.row{
+  margin-top: 25px;
+  margin-bottom: 50px;
+}*/
+#imgAbout{
+  height: 90%;
+  width: 100%;
+}
+
+#brandLogo{
+  height: 35px;
+  width: 35px;
+}
+
+.parallaxOne {
+    /* The image used */
+    background-image: url("../img/earth.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallaxTwo {
+    /* The image used */
+    background-image: url("../img/network.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.embed-responsive{
+  border-radius: 15px;
+  height: 57%;
+  width: 100%;
+}
+
+div#contacts{
+  width: 70%;
+}

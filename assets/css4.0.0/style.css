@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif KR', sans-serif;
+}
+
+body{
+	background:url(../img/landingBg.jpg) no-repeat center center fixed;
+	background-size:  cover;
+}
+
+#brandLogo{
+  height: 35px;
+  width: 35px;
+}
+
+footer > p{
+	color: #f2f2f2;
+}
+
+.bg-dark{
+  background-color: #141414 !important;
+}
+
+.nav-link{
+  color: #f2f2f2 !important;
+}
+
+.nav-link:hover {
+  color: green !important;
+}
+
+.intro-content{
+	color: #f2f2f2; /*offwhite*/
+  position: absolute;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+	padding: 0 15px;
+}
