@@ -5,49 +5,137 @@
 	font-family: 'Noto Serif KR', sans-serif;
 }
 
-body{
-	background:url(../img/landingBg.jpg) no-repeat center center fixed;
-	background-size:  cover;
-}
-
-.jumbotron{
-	/*background-color: #141414; offblack*/
-	background-image: url('../img/network.jpg');
-	background-size: cover;
-	background-position: center;
-	/*height: 50vh;*/
-	border-radius: 0;
-	margin: 0 auto;
-	width: 80%;
-}
-
-#about-landing{
-	color: #f2f2f2; /*offwhite*/
-	font-size: 5em;
-	padding-top: 20vh;
-	letter-spacing: 5px;
-}
-
-#mission{
-	height: 100%;
-	background-color: #141414;
+footer > p{
 	color: #f2f2f2;
 }
 
-#vision{
-	height: 100%;
-	background-color: #f2f2f2;
-	color: #141414;
+.bg-dark{
+  background-color: #141414 !important;
 }
 
-.about-tags{
-	font-weight: bold;
+.nav-link:hover {
+  color: blue !important;
+}
+.nav-link{
+  color: #f2f2f2 !important;
+}
+.carousel {
+  width:80%;
+  height:80%;
+  margin: 0 auto;
 }
 
-a:hover{
-	color: black !important;
+#imgAbout,#imgAbout2{
+  height: 90%;
+  width: 100%;
 }
 
-a{
-	color: #f2f2f2 !important;
+#brandLogo{
+  height: 30px;
+  width: 30px;
+}
+
+.parallaxOne {
+    /* The image used */
+    background-image: url("../img/earth.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxTwo {
+    background-image: url("../img/reliable-wireless.jpg");
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxThree {
+    background-image: url("../img/network.jpg");
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.embed-responsive{
+  border-radius: 10px;
+  height: 60%;
+  width: 100%;
+}
+
+div#contacts{
+  width: 70%;
+}
+
+#carouselTop{
+  padding-top: 141px;
+  padding-bottom: 200px;
+
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+#contact{
+  background-color: rgba(20,20,20, 0.6);
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.form{
+  color: #f2f2f2;
+}
+
+h4,h4+p{
+  color: #f2f2f2;
+}
+
+#about,#about2{
+  background-color: #f2f2f2;
+}
+
+.card-img-top{
+  height: 300px;
+  width: 100%;
+}
+
+#gallery{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 65px;
+    right: 5px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    /*background-color: red;*/
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    /*font-size: 18px;*/
+    opacity: 0.6;
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
